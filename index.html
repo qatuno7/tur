@@ -1,0 +1,14 @@
+<form action="." method="get">
+  <input type="text" name="q">
+  <button type="submit">Search</button>
+</form>
+
+{% if words %}
+  <ul>
+    {% for word in words %}
+      <li><a href="{% url 'detail' word.pk %}">{{ word.english_word }} ({{ word.spanish_word }})</a></li>
+    {% endfor %}
+  </ul>
+{% else %}
+  <p>No matching words found.</p>
+{% endif %}
