@@ -1,0 +1,3 @@
+dog - perro - genus:masculine - type:noun - declination:nominative - conjugation:none
+cat - gato - genus:masculine - type:noun - declination:nominative - conjugation:none
+house - casa - genus:feminine - type:noun - declination:nominative - conjugation:none
